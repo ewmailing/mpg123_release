@@ -1,0 +1,4 @@
+This is a dump of mpg123-1.25.6.
+I orignally tried converting the SVN to Git, but all the configure related scripts were missing.
+I manually copied over the missing files from the 1.25.6 tarball, but then it was complaining about aclocal-1.15 not being found. (Ubuntu 12.04LTS has aclocal-1.11)
+The official tarball didn't have this complaint, so I'm using this instead of the SVN.
